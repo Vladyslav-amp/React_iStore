@@ -1,0 +1,48 @@
+@import '../styles/mixins.scss';
+
+.phones {
+  padding-inline: 30px;
+  max-width: 1136px;
+  margin: 0 auto;
+
+  &-navigate {
+    padding-block-start: 20px;
+    display: flex;
+    gap: 10px;
+
+    &__icon {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  &-head {
+    padding-block-start: 50px;
+  }
+
+  &-block {
+    display: grid;
+    grid-template-columns: 274px;
+    column-gap: 14px;
+    justify-content: center;
+    row-gap: 20px;
+
+    @include onTablet {
+      grid-template-columns: repeat(2, 274px);
+    }
+
+    @include onDesktop {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &-block {
+    padding-block-start: 30px;
+
+    &__item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

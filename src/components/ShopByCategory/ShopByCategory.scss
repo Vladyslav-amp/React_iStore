@@ -1,0 +1,94 @@
+@import '../styles/mixins.scss';
+
+.shop-category {
+  padding-block-start: 80px;
+  display: flex;
+  justify-content: center;
+
+  &__head {
+    &-title {
+      font-size: 32px;
+      line-height: 41px;
+      font-weight: 800;
+      font-family: "MontBold";
+    }
+  }
+
+  &__body {
+    padding-block-start: 30px;
+    gap: 16px;
+    // margin: 0 auto;
+    // max-width: 288px;
+    // display: grid;
+    display: flex;
+    flex-direction: column;
+
+
+    @include onTablet {
+      max-width: 592px;
+      // grid-template-columns: repeat(3, 1fr);
+      flex-direction: row;
+    }
+
+    @include onDesktop {
+      max-width: 1136px;
+      flex-direction: row;
+    }
+  }
+
+
+
+  &__link {
+
+    &-block {
+      text-decoration: none;
+
+      &:nth-child(1) .shop-category__banner {
+        background-color: #6D6474;
+      }
+
+      &:nth-child(2) .shop-category__banner {
+        background-color: #8d8d92;
+      }
+
+      &:nth-child(3) .shop-category__banner {
+        background-color: #973d5f;
+      }
+    }
+  }
+
+  &__label {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "MontRegular";
+    line-height: 26px;
+    color: #313237;
+  }
+
+  &__availability {
+    &-block {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 21px;
+      font-family: "MontRegular";
+    }
+  }
+
+  &__banner {
+    max-width: 368px;
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+
+    @include onTablet {
+      width: 187px;
+      height: 200px;
+    }
+
+    @include onDesktop {
+      width: 100%;
+      height: 450px;
+      object-fit: cover;
+    }
+  }
+}

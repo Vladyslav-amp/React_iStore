@@ -1,0 +1,23 @@
+@import '../../fonts/font.scss';
+
+.home {
+  overflow: hidden;
+  max-width: 1136px;
+  margin: 0 auto;
+
+  &-container {
+    // --columns: 24;
+    // display: grid;
+    // column-gap: 16px;
+    // grid-template-columns: repeat(var(--columns), 1fr);
+  }
+
+  &__title {
+    padding-block: 50px;
+
+    &-head {
+      font-family: 'MontBold';
+      font-size: 48px;
+    }
+  }
+}

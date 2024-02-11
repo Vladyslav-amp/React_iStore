@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ukryj pionowy pasek przewijania */
+::-webkit-scrollbar {
+  width: 0;  /* Szerokość pionowego paska przewijania */
+}
+
+/* Pozostałe style dla paska przewijania */
+::-webkit-scrollbar-track {
+  background: transparent;  /* Kolor tła ścieżki przewijania */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;  /* Kolor samego paska przewijania */
+  border-radius: 10px; /* Zaokrąglenie rogów paska przewijania */
+}

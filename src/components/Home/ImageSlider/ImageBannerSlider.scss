@@ -1,0 +1,84 @@
+@import '../../styles/mixins.scss';
+
+.slider {
+  user-select: none;
+  padding-block: 70px;
+  // max-width: 1136px;
+  position: relative;
+
+  &-container {
+
+  }
+
+  &-block {
+    &__banner-img {
+
+      width: 100%;
+      height: 400px;
+      object-fit: contain;
+
+      @include onTablet {
+        width: 1040px;
+        height: 400px;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+.swiper-container {
+  max-width: 1040px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  cursor: pointer;
+  border: 1px solid #b4bdc3;
+  box-sizing: border-box;
+  height: 400px;
+  left: 0;
+  z-index: 10;
+  width: 32px;
+  display: none;
+
+  @include onTablet {
+    display: block;
+  }
+}
+
+.swiper-button-next {
+  position: absolute;
+  cursor: pointer;
+  border: 1px solid #b4bdc3;
+  box-sizing: border-box;
+  height: 400px;
+  z-index: 10;
+  right: 0;
+  width: 32px;
+  display: none;
+
+  @include onTablet {
+    display: block;
+  }
+}
+
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: auto;
+  pointer-events: none;
+}
+
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.pagination-dot {
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* płynna zmiana koloru */
+}
+

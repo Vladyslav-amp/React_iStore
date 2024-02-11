@@ -1,0 +1,217 @@
+@import '../../fonts/font.scss';
+@import '../styles/mixins.scss';
+
+.navigation {
+  border-bottom: 1px solid #e2e6e9;
+  padding: 15px 0;
+
+  &-container {
+    padding-inline: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--align-left {
+      display: flex;
+      column-gap: 50px;
+    }
+
+    &--align-right {
+      column-gap: 20px;
+      display: none;
+
+      @include onTablet {
+        display: flex;
+      }
+    }
+  }
+
+  &-block {
+    display: none;
+    column-gap: 32px;
+
+    @include onTablet {
+      display: flex;
+    }
+
+    &__link {
+      padding: 8px 0;
+      font-family: 'MontSemiBold';
+      text-decoration: none;
+      font-size: 12px;
+      color: #89939A;
+
+      &--active {
+        position: relative;
+        padding: 8px 0;
+        font-family: 'MontSemiBold';
+        font-size: 12px;
+        text-decoration: none;
+        color: #313237;
+
+        &::before {
+          position: absolute;
+          content: "";
+          bottom: 0;
+          width: 100%;
+          border-radius: 3px;
+          height: 3px;
+          background-color: #313237;
+        }
+      }
+    }
+  }
+
+  &-logo {
+    &__block {
+      display: flex;
+
+      &-img {
+        width: 34px;
+        height: 34px;
+      }
+
+      &-title {
+        display: flex;
+        color: #313237;
+        font-family: 'MontBold';
+        font-size: 12px;
+      }
+    }
+  }
+
+  &__icon {
+    position: relative;
+    color: #000;
+    width: 16px;
+    height: 16px;
+    padding: 8px 16px;
+  }
+
+  &__counter {
+    top: -3px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 3px;
+    font-size: 8px;
+    text-align: center;
+
+    &-favorite {
+      position: absolute;
+    }
+
+    &-cart {
+      position: absolute;
+    }
+  }
+
+  &-favorites {
+    padding: 10px;
+
+    &__block {
+      position: relative;
+    }
+  }
+
+  &-cart {
+    padding: 10px;
+
+    &__block {
+      position: relative;
+    }
+  }
+
+  &-burger {
+
+    &__open,
+    &__close {
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    @include onTablet {
+      display: none;
+    }
+  }
+
+  &-aside {
+    background-color: #fff;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: all 0.3s;
+    transform: translateX(-100%);
+    pointer-events: none;
+    z-index: 10;
+    display: none;
+
+    &:target {
+      display: block;
+      justify-content: space-between;
+      transform: translateX(0);
+      pointer-events: all;
+    }
+
+    @include onTablet {
+      display: none;
+    }
+
+    &__block {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #e2e6e9;
+      padding: 15px 30px;
+    }
+
+    &__logo {
+      display: flex;
+    }
+
+    &__bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-block-start: 30px;
+    }
+
+    &__link {
+      padding: 8px 0;
+      // width: fit-content;
+      font-family: 'MontSemiBold';
+      text-decoration: none;
+      font-size: 12px;
+      color: #89939A;
+
+      &:active {
+        position: relative;
+        width: 100%;
+        padding: 8px 0;
+        font-family: 'MontSemiBold';
+        font-size: 12px;
+        text-decoration: none;
+        color: #313237;
+
+        &::before {
+          position: absolute;
+          content: "";
+          bottom: 0;
+          width: 100%;
+          border-radius: 3px;
+          height: 3px;
+          background-color: #313237;
+        }
+      }
+    }
+  }
+
+}

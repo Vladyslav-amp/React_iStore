@@ -1,0 +1,30 @@
+@import '../styles/mixins.scss';
+
+.favorites {
+  max-width: 1136px;
+  margin: 0 auto;
+
+  &-product__block {
+    display: grid;
+    grid-template-columns: 274px;
+    column-gap: 14px;
+    row-gap: 26px;
+    justify-content: center;
+
+    @include onTablet {
+      grid-template-columns: repeat(2, 274px);
+    }
+
+    @include onDesktop {
+      grid-template-columns: repeat(4, 1fr);
+
+    }
+  }
+
+  &-product {
+    &__list {
+      list-style: none;
+    }
+  }
+
+}

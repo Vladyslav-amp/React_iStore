@@ -1,0 +1,60 @@
+@import '../styles/mixins.scss';
+@import '../../fonts/font.scss';
+
+.product-list {
+  user-select: none;
+  // @include consentPaddingInline;
+  margin: 0 auto;
+  max-width: 288px;
+
+  @include onTablet {
+    max-width: 592px;
+  }
+
+  @include onDesktop {
+    max-width: 1136px;
+  }
+
+  &__swiper {
+    display: flex;
+    // justify-content: center;
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block-end: 50px;
+
+    &-title {
+      font-size: 32px;
+      line-height: 41px;
+      font-weight: 800;
+      font-family: "MontBold";
+    }
+  }
+
+  &__pagination {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+    &-btn {
+      width: 32px;
+      height: 32px;
+      border: 1px solid #b4bdc3;
+    }
+
+    &-icon {
+      color: #313237;
+      // opacity: .5;
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+
+
+.disable {
+  opacity: .5;
+}
