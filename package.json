@@ -1,8 +1,8 @@
 {
-  "homepage": "https://Vladyslav-amp.github.io/react_istore",
+  "homepage": "https://Vladyslav-amp.github.io",
   "name": "react_istore",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",

@@ -42,7 +42,7 @@ export const ProductCard = ({ item }) => {
           <div className="product-card__image-block">
             <img
               className="product-card__image"
-              src={item.image}
+              src={`${item.image}`}
               alt="phone-image" />
           </div>
 
