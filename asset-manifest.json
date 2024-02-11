@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa86f99a.css",
-    "main.js": "/static/js/main.4b489219.js",
-    "static/media/category-tablets.png": "/static/media/category-tablets.51782e18205a1ca01ce8.png",
-    "static/media/banner-phones.png": "/static/media/banner-phones.cb3d7c28ccd684112d86.png",
-    "static/media/Nice_Gadget_logo.jpg": "/static/media/Nice_Gadget_logo.101f2626d7bac690ec47.jpg",
-    "static/media/category-phones.png": "/static/media/category-phones.af93d992917380dfe206.png",
-    "static/media/category-accessories.png": "/static/media/category-accessories.e47d6d6df68a6548e82b.png",
-    "static/media/banner-tablets.png": "/static/media/banner-tablets.a962057c1043a08f7737.png",
-    "static/media/Mont-Regular.otf": "/static/media/Mont-Regular.1d26d89f7339866d3133.otf",
-    "static/media/Mont-SemiBold.otf": "/static/media/Mont-SemiBold.8979d71a3146ca1d761f.otf",
-    "static/media/Mont-Bold.otf": "/static/media/Mont-Bold.03c8c2f6127c1da0fc39.otf",
-    "static/media/banner-accessories.png": "/static/media/banner-accessories.bdd2e0fca0159e52f41c.png",
-    "index.html": "/index.html",
-    "main.fa86f99a.css.map": "/static/css/main.fa86f99a.css.map",
-    "main.4b489219.js.map": "/static/js/main.4b489219.js.map"
+    "main.css": "./static/css/main.3704a0ec.css",
+    "main.js": "./static/js/main.674077ba.js",
+    "static/media/category-tablets.png": "./static/media/category-tablets.51782e18205a1ca01ce8.png",
+    "static/media/banner-phones.png": "./static/media/banner-phones.cb3d7c28ccd684112d86.png",
+    "static/media/Nice_Gadget_logo.jpg": "./static/media/Nice_Gadget_logo.101f2626d7bac690ec47.jpg",
+    "static/media/category-phones.png": "./static/media/category-phones.af93d992917380dfe206.png",
+    "static/media/category-accessories.png": "./static/media/category-accessories.e47d6d6df68a6548e82b.png",
+    "static/media/banner-tablets.png": "./static/media/banner-tablets.a962057c1043a08f7737.png",
+    "static/media/Mont-Regular.otf": "./static/media/Mont-Regular.1d26d89f7339866d3133.otf",
+    "static/media/Mont-SemiBold.otf": "./static/media/Mont-SemiBold.8979d71a3146ca1d761f.otf",
+    "static/media/Mont-Bold.otf": "./static/media/Mont-Bold.03c8c2f6127c1da0fc39.otf",
+    "static/media/banner-accessories.png": "./static/media/banner-accessories.bdd2e0fca0159e52f41c.png",
+    "index.html": "./index.html",
+    "main.3704a0ec.css.map": "./static/css/main.3704a0ec.css.map",
+    "main.674077ba.js.map": "./static/js/main.674077ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa86f99a.css",
-    "static/js/main.4b489219.js"
+    "static/css/main.3704a0ec.css",
+    "static/js/main.674077ba.js"
   ]
 }
