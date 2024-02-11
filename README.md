@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+#About
+It`s not finished project yet.
+
+##Demo
+ https://vladyslav-amp.github.io/react_iStore/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
