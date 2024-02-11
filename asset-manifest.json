@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fa86f99a.css",
-    "main.js": "/static/js/main.0d9ffa06.js",
+    "main.js": "/static/js/main.4b489219.js",
     "static/media/category-tablets.png": "/static/media/category-tablets.51782e18205a1ca01ce8.png",
     "static/media/banner-phones.png": "/static/media/banner-phones.cb3d7c28ccd684112d86.png",
     "static/media/Nice_Gadget_logo.jpg": "/static/media/Nice_Gadget_logo.101f2626d7bac690ec47.jpg",
@@ -14,10 +14,10 @@
     "static/media/banner-accessories.png": "/static/media/banner-accessories.bdd2e0fca0159e52f41c.png",
     "index.html": "/index.html",
     "main.fa86f99a.css.map": "/static/css/main.fa86f99a.css.map",
-    "main.0d9ffa06.js.map": "/static/js/main.0d9ffa06.js.map"
+    "main.4b489219.js.map": "/static/js/main.4b489219.js.map"
   },
   "entrypoints": [
     "static/css/main.fa86f99a.css",
-    "static/js/main.0d9ffa06.js"
+    "static/js/main.4b489219.js"
   ]
 }
