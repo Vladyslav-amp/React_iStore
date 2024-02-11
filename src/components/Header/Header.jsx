@@ -16,7 +16,7 @@ export const Header = () => {
   return (
     <React.StrictMode>
       <Provider store={store}>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Navigation />
 
           <Routes>
