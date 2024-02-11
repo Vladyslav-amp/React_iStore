@@ -1,5 +1,6 @@
 {
-  "name": "react-catalog",
+  "homepage": ".",
+  "name": "react_istore",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
