@@ -20,7 +20,7 @@ export const Header = () => {
           <Navigation />
 
           <Routes>
-            <Route path="/" element={<Navigate to="/Home" />} />
+            <Route exact path="/" element={<Navigate to="/Home" />} />
 
             <Route path="/Home" element={<Home />}></Route>
             <Route path="/Phones" element={<Phones />}></Route>
