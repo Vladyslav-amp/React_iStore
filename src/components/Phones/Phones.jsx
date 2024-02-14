@@ -11,7 +11,7 @@ import { ProductCard } from '../ProductCard/ProductCard';
 export const Phones = () => {
   const [filteredPhones, setFilteredPhones] = useState(phoneData);
   const [selectedFilter, setSelectedFilter] = useState(null);
-  const [sortDirection, setSortDirection] = useState('desc'); // domyślnie sortuj od najwyższej ceny do najniższej
+  const [sortDirection, setSortDirection] = useState('desc');
 
   const location = useLocation();
   const pathWithoutSlash = location.pathname.slice(1);
